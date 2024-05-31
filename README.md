@@ -11,7 +11,7 @@ npm i
 composer i
 
 ## Comando per Controller
-php artisan make:controller Folder/NomeController (il nome deve essere singolare e in PascalCase, Folder/nomeController se è sottocartella)
+php artisan make:controller Folder/NomeController -r --model=nomeModel (il nome deve essere singolare e in PascalCase, Folder/nomeController se è sottocartella)
 
 ## Comando per Model
-php artisan make:model Mymodel (singolare e in PascalCase)
+php artisan make:model Model (singolare e in PascalCase)
